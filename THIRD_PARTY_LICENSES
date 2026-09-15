@@ -1,0 +1,86 @@
+EasyNotch — Third-Party Components and Licenses
+================================================
+
+EasyNotch itself is licensed under the MIT License (see LICENSE). It
+incorporates or depends on the following third-party components, each under
+its own license.
+
+Note that the Mozilla Public License 2.0 applies per file. CGSSpace.swift,
+listed below, remains under MPL-2.0 regardless of the license covering the
+rest of this project.
+
+Vendored source code
+--------------------
+
+NotchShape (derived from DynamicNotchKit)
+  Author:  Kai Azim (MrKai77)
+  License: MIT
+  Source:  https://github.com/MrKai77/DynamicNotchKit
+  Used in: EasyNotch/components/Notch/NotchShape.swift
+
+CGSSpace (private Spaces API wrapper, from Parrot)
+  Author:  Aditya Vaidyam (avaidyam)
+  License: Mozilla Public License 2.0 (https://mozilla.org/MPL/2.0/)
+  Source:  https://github.com/avaidyam/Parrot
+  Used in: EasyNotch/private/CGSSpace.swift
+
+mediaremote-adapter (Perl script + MediaRemoteAdapter.framework)
+  Author:  Jonas van den Berg
+  License: BSD 3-Clause
+  Source:  https://github.com/ungive/mediaremote-adapter
+  Used in: mediaremote-adapter/
+
+Swift Package Manager dependencies
+----------------------------------
+
+Defaults
+  Author:  Sindre Sorhus
+  License: MIT
+  Source:  https://github.com/sindresorhus/Defaults
+
+KeyboardShortcuts
+  Author:  Sindre Sorhus
+  License: MIT
+  Source:  https://github.com/sindresorhus/KeyboardShortcuts
+
+LaunchAtLogin-Modern
+  Author:  Sindre Sorhus
+  License: MIT
+  Source:  https://github.com/sindresorhus/LaunchAtLogin-Modern
+
+Lottie (lottie-spm)
+  Author:  Airbnb
+  License: Apache License 2.0
+  Source:  https://github.com/airbnb/lottie-spm
+
+SkyLightWindow
+  Author:  Lakr Aream (Lakr233)
+  License: MIT
+  Source:  https://github.com/Lakr233/SkyLightWindow
+
+Sparkle
+  Author:  Sparkle Project contributors
+  License: MIT (with portions under other permissive licenses; see the
+           Sparkle repository's LICENSE file)
+  Source:  https://github.com/sparkle-project/Sparkle
+
+swift-syntax (transitive dependency of Defaults macros)
+  Author:  Apple Inc. and the Swift project authors
+  License: Apache License 2.0 with Runtime Library Exception
+  Source:  https://github.com/swiftlang/swift-syntax
+
+Bundled fonts
+-------------
+
+Vazirmatn (Vazirmatn-Regular.ttf)
+  Author:  The Vazirmatn Project Authors (Saber Rastikerdar)
+  License: SIL Open Font License 1.1
+  Source:  https://github.com/rastikerdar/vazirmatn
+  Used in: EasyNotch/fonts/ (Persian lyrics rendering)
+
+Online services
+---------------
+
+LRCLIB (lyrics lookup)
+  When the lyrics feature is enabled, song title and artist are sent to
+  lrclib.net to look up lyrics. See https://lrclib.net for its terms.

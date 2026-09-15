@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Sparkle updater configuration.
+	     Before shipping a release, replace the SUFeedURL placeholder AND add an
+	     SUPublicEDKey entry with your generated Ed25519 public key — see
+	     docs/RELEASING.md. Do NOT add SUPublicEDKey with a placeholder value:
+	     Sparkle treats a present-but-undecodable key as a fatal error at launch,
+	     while a missing key is allowed (Apple code signing covers security). -->
+	<key>SUFeedURL</key>
+	<string>https://REPLACE-ME.example.com/appcast.xml</string>
+	<key>SUEnableInstallerLauncherService</key>
+	<true/>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>EasyNotch listens to the system audio output to animate the music visualizer in sync with your music.</string>
+	<key>ATSApplicationFontsPath</key>
+	<string>.</string>
+</dict>
+</plist>

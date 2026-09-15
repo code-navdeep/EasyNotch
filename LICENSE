@@ -19,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Third-party components retain their own licenses. See THIRD_PARTY_LICENSES.
-
-In particular, EasyNotch/private/CGSSpace.swift is licensed under the
-Mozilla Public License 2.0, which applies per file. That file remains under
-MPL-2.0 regardless of the license covering the rest of this project.

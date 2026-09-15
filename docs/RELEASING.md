@@ -74,10 +74,11 @@ can never verify another update.
 
 ## Notes
 
-- The app is sandboxed; the Sparkle installer runs through its XPC launcher
-  service (`SUEnableInstallerLauncherService` is already set, and the
-  `-spks`/`-spki` mach-lookup entitlements are already in
-  `EasyNotch/EasyNotch.entitlements`).
+- The app is **not** sandboxed (`ENABLE_APP_SANDBOX = NO` in both build
+  configurations). The Sparkle installer is nonetheless wired to run through
+  its XPC launcher service: `SUEnableInstallerLauncherService` is already set
+  in `Info.plist`, and the `-spks`/`-spki` mach-lookup entitlements are already
+  in `EasyNotch/EasyNotch.entitlements`.
 - Test an update end-to-end before publishing: host the appcast locally,
   point `SUFeedURL` at it in a debug build, and confirm the full
   download-install-relaunch cycle.
